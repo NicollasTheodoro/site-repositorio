@@ -1,0 +1,77 @@
+.lista{
+    list-style: none;
+}
+
+head{
+    background-color:darkblue;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+/* 
+body {
+    background-color: #121212;
+    color: white;
+} */
+
+
+
+.card{
+    background-color: black;
+}
+.card-body{
+    color: orange;
+}
+
+nav{
+   color: white;
+}
+
+.div-footer{
+    padding: 5%;
+    font-style: none;
+    
+}
+
+.div-footer ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.div-footer a:hover{
+    color: orange;
+}
+
+.btn:hover{
+    color: orange;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    color: orange;
+}
+
+body.light-mode .sobre-mim{
+    background-color: white;
+    color: black;
+}
+body.light-mode .card{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+body.light-mode {
+    background-color: white;
+    color: white;
+}
