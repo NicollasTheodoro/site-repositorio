@@ -6,25 +6,10 @@ head{
     background-color:darkblue;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body{
     background-color: black;
     color: white;
 }
-
-main {
-    flex: 1;
-}
-    
-
 /* 
 body {
     background-color: #121212;
@@ -45,7 +30,7 @@ nav{
 }
 
 .div-footer{
-    padding: 2%;
+    padding: 5%;
     font-style: none;
     
 }
@@ -88,58 +73,19 @@ body.light-mode .card{
 
 body.light-mode {
     background-color: white;
-    color: black;
+    color: white;
 }
 
-
-
-@media (max-width: 808px) {
-    body {
-        font-size: 16px;
-    }
-
-    p {
-        font-size: 1rem;
-        line-height: 1.6;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        font-size: 1.7rem;
-    }
-
-    h3 {
-        font-size: 1.4rem;
-    }
-
-    .lista {
-        font-size: 1rem;
-    }
-
-    .div-footer {
-        padding: 30px 20px;
-        font-size: 1rem;
-    }
+* {
+    box-sizing: border-box;
 }
 
-@media (max-width: 480px) {
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
 
-    body {
-        font-size: 16px;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    .div-footer {
-        padding: 30px 15px;
-    }
+.container {
+    max-width: 100%;
 }
