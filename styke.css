@@ -32,7 +32,7 @@ nav{
 .div-footer{
     padding: 5%;
     font-style: none;
-    
+    background-color: #212529;
 }
 
 .div-footer ul{
@@ -73,6 +73,11 @@ body.light-mode .card{
 
 body.light-mode {
     background-color: white;
+    color: black;
+}
+
+body.light-mode .div-footer {
+    background-color: #212529;
     color: white;
 }
 
@@ -88,4 +93,9 @@ body {
 
 .container {
     max-width: 100%;
+}
+
+.inutil:hover{
+    background-color: transparent;
+    cursor: initial;
 }
