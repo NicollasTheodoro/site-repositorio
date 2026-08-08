@@ -62,5 +62,4 @@ function mudarTexto(texto){
 
 function alternarTema() {
     document.body.classList.toggle("light-mode");
-    document.getElementsByTagName("footer").toggle("light-mode");
 }
