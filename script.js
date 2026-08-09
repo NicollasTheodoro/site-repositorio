@@ -1,9 +1,9 @@
-function mudarTexto(texto){
-
+function mudarTexto(texto) {
 
     if (texto === "h") {
 
         document.getElementById("card1").style.backgroundColor = "transparent";
+        document.getElementById("card2").style.backgroundColor = "transparent";
 
         document.getElementById("titulo").textContent = "Hard Skills";
 
@@ -15,13 +15,18 @@ function mudarTexto(texto){
         document.getElementById("item6").textContent = "SQL/MySQL e PostGree";
         document.getElementById("item7").textContent = "Git/GitHub";
 
-        document.getElementById("cardTitle1").textContent = "";
-        document.getElementById("cardText1").textContent = "";
+        document.getElementById("card-title1").textContent = "";
+        document.getElementById("card-text1").textContent = "";
+
+        document.getElementById("card-title2").textContent = "";
+        document.getElementById("card-text2").textContent = "";
+
     } else if (texto === "s") {
 
         document.getElementById("card1").style.backgroundColor = "transparent";
+        document.getElementById("card2").style.backgroundColor = "transparent";
 
-         document.getElementById("titulo").textContent = "Soft Skill";
+        document.getElementById("titulo").textContent = "Soft Skill";
 
         document.getElementById("item1").textContent = "Comunicação";
         document.getElementById("item2").textContent = "Trabalho em equipe";
@@ -29,13 +34,17 @@ function mudarTexto(texto){
         document.getElementById("item4").textContent = "Aprendizado contínuo";
         document.getElementById("item5").textContent = "Organização";
 
-        document.getElementById("cardTitle1").textContent = "";
-        document.getElementById("cardText1").textContent = "";
-        
+        document.getElementById("card-title1").textContent = "";
+        document.getElementById("card-text1").textContent = "";
+
+        document.getElementById("card-title2").textContent = "";
+        document.getElementById("card-text2").textContent = "";
+
     } else if (texto === "x") {
 
 
         document.getElementById("card1").style.backgroundColor = "#181818";
+        document.getElementById("card2").style.backgroundColor = "#181818";
         document.getElementById("titulo").textContent = "Experiências";
 
         document.getElementById("item1").textContent = "";
@@ -45,21 +54,70 @@ function mudarTexto(texto){
         document.getElementById("item5").textContent = "";
         document.getElementById("item6").textContent = "";
         document.getElementById("item7").textContent = "";
-        
-        document.getElementById("cardTitle1").textContent = "Sistema Web Educacional (Líder de Equipe)";
-        document.getElementById("cardText1").textContent = "Fui responsável por gerir uma equipe de 5 pessoas em um sistema educacional que visava o auxílio no estudo espaçado e distribuição de conteúdo para os alunos da rede FAETEC de Jardim América.";
-        
-        
 
-        
+        document.getElementById("card-title1").textContent = "Sistema Web Educacional (Líder de Equipe)";
+        document.getElementById("card-text1").textContent = "Fui responsável por gerir uma equipe de 5 pessoas em um sistema educacional que visava o auxílio no estudo espaçado e distribuição de conteúdo para os alunos da rede FAETEC de Jardim América.";
+
+        document.getElementById("card-title2").textContent = "Sistema Web Educacional (Líder de Equipe)";
+        document.getElementById("card-text2").textContent = "Isso é apenas um teste";
+
+
+
+
     } else {
-         document.getElementById("titulo").textContent = "Hard Skills";
+        document.getElementById("titulo").textContent = "Hard Skills";
 
     }
-    
+
 
 }
 
 function alternarTema() {
     document.body.classList.toggle("light-mode");
+}
+
+function mudarTextoFormacao(texto) {
+
+    if (texto === "con") {
+
+        document.getElementById("card-formacao1").style.backgroundColor = "#181818";
+                document.getElementById("card-formacao2").style.backgroundColor = "#181818";
+
+
+        document.getElementById("titulo-formacoes").textContent = "Concluídos";
+
+        document.getElementById("card-formacao-title1").textContent = "Concluí o curso médio/técnico em informática";
+
+
+        document.getElementById("card-formacao-title2").textContent = "Concluí o curso técnico de instrutor pela instituição preparatória FUSAO";
+        
+
+
+    } else if (texto === "cur") {
+
+        document.getElementById("card-formacao1").style.backgroundColor = "#181818";
+                document.getElementById("card-formacao2").style.backgroundColor = "#181818";
+
+        document.getElementById("titulo-formacoes").textContent = "Cursando";
+
+        document.getElementById("card-formacao-title1").textContent = "Estou atualmente cursando Ferramentas WEB, com previsão de conclusão para 10/10/2037";
+
+
+        document.getElementById("card-formacao-title2").textContent = "Estou atualmente cursando Design de Tanques de Guerra — pela marinha brasileira — com previsão de conclusão para 10/10/2037";
+
+        
+
+    } else {
+        document.getElementById("card-formacao1").style.backgroundColor = "#181818";
+                document.getElementById("card-formacao2").style.backgroundColor = "#181818";
+
+
+        document.getElementById("titulo-formacoes").textContent = "Concluídos";
+
+        document.getElementById("card-formacao-title1").textContent = "Concluí o curso médio/técnico em informática";
+
+
+        document.getElementById("card-formacao-title2").textContent = "Concluí o curso técnico de instrutor pela instituição preparatória FUSAO";
+
+    }
 }

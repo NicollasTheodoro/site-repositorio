@@ -81,6 +81,10 @@ body.light-mode .div-footer {
     color: white;
 }
 
+body.light-mode .vamos-conversar{
+    color: white;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -98,4 +102,49 @@ body {
 .inutil:hover{
     background-color: transparent;
     cursor: initial;
+}
+
+.banner{
+    height: 500px;
+    width: 100%;
+    padding: 0%;
+    background-image: url(camisetasTiBanner.png);
+}
+
+/* .banner img{
+    padding: 2%;
+    padding-left: 0%;
+} */
+
+.sobre{
+    margin-top: 5%;
+}
+
+.formacoes{
+    background-color: aliceblue;
+
+}
+
+/* Mudando o bg dos cards */
+
+#card-formacao1, #card-formacao2{
+    background-color: #181818;
+}
+
+.vamos-conversar{
+    text-align: center;
+    background-color: rgb(16, 15, 31);
+    height: 300px;
+    padding: 5%;
+}
+
+.scroll-projetos {
+    color: #111314;
+}
+.scroll-projetos img{
+    height: 200px;
+}
+
+.scroll-projetos a:hover{
+    color: orange;
 }
