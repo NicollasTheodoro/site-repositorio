@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family: Times, Times New Roman, sans-serif;
 }
 
+h1{
+    font-family: Andale Mono, monospace;
+}
 .lista{
     list-style: none;
 }
@@ -21,27 +25,34 @@ body {
     color: white;
 } */
 
-.btn{
+.btn {
     border-color: #4F1275;
     color: #4F1275;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #831DC2;
+    border-color: #4F1275;
     color: #C9EEF2;
 }
 
 .btn:active {
-  background-color: #831DC2;
-  color: red;
+    background-color: #831DC2 !important;
+    border-color: #4F1275 !important;
+    color: #C9EEF2 !important;
 }
 
-
-
-.card{
-    background-color: black;
+.card {
+    background-color: transparent;
     border-radius: 30px;
+    border-color: transparent;
 }
+
+#card-formacao1,
+#card-formacao2 {
+    background-color: #460259;
+}
+
 .card-body p{
     color: darkgray;
 }
@@ -49,6 +60,11 @@ body {
 .card-body h5{
     color: white;
 }
+
+.card-body h7{
+    color: darkgray;
+}
+
 
 nav{
    color: white;
@@ -69,7 +85,7 @@ a{
 }
 
 .div-footer a:hover{
-    color: orange;
+    color: #C9EEF2;
 }
 
 
@@ -80,7 +96,7 @@ button{
 }
 
 button:hover{
-    color: orange;
+    color: #C9EEF2;
 }
 
 body.light-mode .sobre-mim{
@@ -93,6 +109,7 @@ body.light-mode .sobre-mim{
     border-color: transparent;
 }
 
+
 body.light-mode .card{
     background-color: transparent;
     color: black;
@@ -100,7 +117,7 @@ body.light-mode .card{
 }
 
 body.light-mode {
-    background-color: white;
+    background-color: rgb(221, 214, 224);
     color: black;
 }
 
@@ -112,8 +129,6 @@ body.light-mode .div-footer {
 body.light-mode .vamos-conversar{
     color: white;
 }
-
-
 
 body {
     margin: 0;
@@ -151,15 +166,10 @@ body {
 
 }
 
-/* Mudando o bg dos cards */
-
-#card-formacao1, #card-formacao2{
-    background-color: #181818;
-}
-
 .vamos-conversar{
     text-align: center;
-    background-color: rgb(16, 15, 31);
+    background-color: #310b49;
+    /* background-color: rgb(16, 15, 31); */
     height: 300px;
     padding: 5%;
 }
@@ -172,7 +182,7 @@ body {
 }
 
 .scroll-projetos a:hover{
-    color: orange;
+    color: #C9EEF2;
 }
 
 @media (max-width: 600px) {

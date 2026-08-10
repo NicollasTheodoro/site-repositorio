@@ -82,8 +82,8 @@ function mudarTextoFormacao(texto) {
 
     if (texto === "con") {
 
-        document.getElementById("card-formacao1").style.backgroundColor = "#181818";
-                document.getElementById("card-formacao2").style.backgroundColor = "#181818";
+        document.getElementById("card-formacao1").style.backgroundColor = corCartao;
+                document.getElementById("card-formacao2").style.backgroundColor = corCartao;
 
 
         document.getElementById("titulo-formacoes").textContent = "Concluídos";
@@ -97,8 +97,8 @@ function mudarTextoFormacao(texto) {
 
     } else if (texto === "cur") {
 
-        document.getElementById("card-formacao1").style.backgroundColor = "#181818";
-                document.getElementById("card-formacao2").style.backgroundColor = "#181818";
+        document.getElementById("card-formacao1").style.backgroundColor = corCartao;
+                document.getElementById("card-formacao2").style.backgroundColor = corCartao;
 
         document.getElementById("titulo-formacoes").textContent = "Cursando";
 
@@ -110,8 +110,8 @@ function mudarTextoFormacao(texto) {
         
 
     } else {
-        document.getElementById("card-formacao1").style.backgroundColor = "#181818";
-                document.getElementById("card-formacao2").style.backgroundColor = "#181818";
+        document.getElementById("card-formacao1").style.backgroundColor = corCartao;
+                document.getElementById("card-formacao2").style.backgroundColor = corCartao;
 
 
         document.getElementById("titulo-formacoes").textContent = "Concluídos";
