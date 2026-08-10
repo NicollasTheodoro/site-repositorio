@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .lista{
     list-style: none;
 }
@@ -7,7 +11,8 @@ head{
 }
 
 body{
-    background-color: black;
+    /* background-color: #1e1c1f; */
+    background-color: #121212;
     color: white;
 }
 /* 
@@ -16,13 +21,33 @@ body {
     color: white;
 } */
 
+.btn{
+    border-color: #4F1275;
+    color: #4F1275;
+}
+
+.btn:hover{
+    background-color: #831DC2;
+    color: #C9EEF2;
+}
+
+.btn:active {
+  background-color: #831DC2;
+  color: red;
+}
+
 
 
 .card{
     background-color: black;
+    border-radius: 30px;
 }
-.card-body{
-    color: orange;
+.card-body p{
+    color: darkgray;
+}
+
+.card-body h5{
+    color: white;
 }
 
 nav{
@@ -47,9 +72,6 @@ a{
     color: orange;
 }
 
-.btn:hover{
-    color: orange;
-}
 
 button{
     background-color: transparent;
@@ -65,8 +87,14 @@ body.light-mode .sobre-mim{
     background-color: white;
     color: black;
 }
+
+.card{
+    background-color: transparent;
+    border-color: transparent;
+}
+
 body.light-mode .card{
-    background-color: white;
+    background-color: transparent;
     color: black;
     border: none;
 }
@@ -85,9 +113,7 @@ body.light-mode .vamos-conversar{
     color: white;
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     margin: 0;
@@ -147,4 +173,13 @@ body {
 
 .scroll-projetos a:hover{
     color: orange;
+}
+
+@media (max-width: 600px) {
+    .banner{
+    height: 566px;
+    width: 100%;
+    padding: 0%;
+    background-image: url(camisetasTiBanner.png);
+    }
 }

@@ -1,3 +1,5 @@
+const corCartao = "#460259";
+
 function mudarTexto(texto) {
 
     if (texto === "h") {
@@ -43,8 +45,8 @@ function mudarTexto(texto) {
     } else if (texto === "x") {
 
 
-        document.getElementById("card1").style.backgroundColor = "#181818";
-        document.getElementById("card2").style.backgroundColor = "#181818";
+        document.getElementById("card1").style.backgroundColor = corCartao;
+        document.getElementById("card2").style.backgroundColor = corCartao;
         document.getElementById("titulo").textContent = "Experiências";
 
         document.getElementById("item1").textContent = "";
