@@ -6,12 +6,21 @@
 h1{
     font-family: Andale Mono, monospace;
 }
+
 .lista{
     list-style: none;
 }
 
 head{
     background-color:darkblue;
+}
+
+#sol {
+    display: none;
+}
+
+#lua {
+    display: inline;
 }
 
 body{
@@ -145,11 +154,15 @@ body {
     cursor: initial;
 }
 
-.banner{
+.banner {
     height: 500px;
     width: 100%;
-    padding: 0%;
+    padding: 0;
+    margin: 0;
     background-image: url(camisetasTiBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* .banner img{
@@ -166,12 +179,40 @@ body {
 
 }
 
-.vamos-conversar{
-    text-align: center;
-    background-color: #310b49;
-    /* background-color: rgb(16, 15, 31); */
-    height: 300px;
-    padding: 5%;
+.vamos-conversar {
+    height: 800px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(imagens/bannerVamosConversar.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+}
+
+.vamos-conversar h1, h2, p, button{
+    margin-left: 3%;
+}
+
+.vamos-conversar h1{
+    padding-top: 20%;
+}
+
+.whatsapp {
+    color: green;
+    border-color: green;
+}
+
+.whatsapp:hover{
+    background-color: green;
+    border-color: green;
+}
+
+.whatsapp:active {
+    background-color: green !important;
+    border-color: green !important;
+    color: greenyellow !important;
 }
 
 .scroll-projetos {
@@ -192,4 +233,21 @@ body {
     padding: 0%;
     background-image: url(camisetasTiBanner.png);
     }
+
+    .vamos-conversar{
+    text-align: center;
+    /* background-color: #310b49; */
+    background-image: url(imagens/bannerVamosConversar.jpeg);
+    /* background-color: rgb(16, 15, 31); */
+    height: 800px;
+    width: 100%;
+    background-origin: initial;
+    padding: 5%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.vamos-conversar h1{
+    padding-top: 55%;
+}
 }

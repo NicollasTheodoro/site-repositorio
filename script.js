@@ -123,3 +123,24 @@ function mudarTextoFormacao(texto) {
 
     }
 }
+
+function alternarTema() {
+
+    document.body.classList.toggle("light-mode");
+
+    const lua = document.getElementById("lua");
+    const sol = document.getElementById("sol");
+
+    if (document.body.classList.contains("light-mode")) {
+
+        lua.style.display = "none";
+        sol.style.display = "inline";
+        // sol.style.color = "#FFD43B";
+
+    } else {
+
+        lua.style.display = "inline";
+        sol.style.display = "none";
+        lua.style.color = "white";
+    }
+}
