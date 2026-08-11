@@ -44,6 +44,12 @@ body {
     color: #4F1275;
 }
 
+#capacidades-tecnicas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
 .btn:hover {
     background-color: #831DC2;
     border-color: #4F1275;
@@ -195,7 +201,7 @@ body {
 
 .cursor {
     animation: piscar 1s infinite;
-    margin-left: -3%;
+    margin-left: -1.5%;
 }
 
 @keyframes piscar {
@@ -284,6 +290,11 @@ body {
 
     .banner-home p{
     max-width: 250px;
+}
+
+.cursor {
+    animation: piscar 1s infinite;
+    margin-left: -3.5%;
 }
 
     .curriculo{

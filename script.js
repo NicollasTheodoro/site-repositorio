@@ -82,6 +82,8 @@ function mudarTextoFormacao(texto) {
 
     if (texto === "con") {
 
+        document.getElementById("certificado1").style.display = "inline";
+
         document.getElementById("card-formacao1").style.backgroundColor = corCartao;
                 document.getElementById("card-formacao2").style.backgroundColor = corCartao;
 
@@ -96,6 +98,7 @@ function mudarTextoFormacao(texto) {
 
 
     } else if (texto === "cur") {
+        document.getElementById("certificado1").style.display = "none";
 
         document.getElementById("card-formacao1").style.backgroundColor = corCartao;
                 document.getElementById("card-formacao2").style.backgroundColor = corCartao;
