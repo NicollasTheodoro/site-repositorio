@@ -215,7 +215,6 @@ body {
 
 .formacoes{
     background-color: aliceblue;
-
 }
 
 .vamos-conversar {
@@ -302,6 +301,27 @@ body {
     padding: 5%;
     background-repeat: no-repeat;
     text-align: center;
+}
+
+.btn {
+    border-color: #4F1275;
+    color: #831DC2;
+}
+
+.whatsapp {
+    color: green;
+    border-color: green;
+}
+
+.whatsapp:hover{
+    background-color: green;
+    border-color: green;
+}
+
+.whatsapp:active {
+    background-color: green !important;
+    border-color: green !important;
+    color: greenyellow !important;
 }
 
 .vamos-conversar h1{
