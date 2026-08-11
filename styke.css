@@ -34,6 +34,11 @@ body {
     color: white;
 } */
 
+.curriculo{
+    background-color: #831DC2;
+    color: #C9EEF2 !important;
+}
+
 .btn {
     border-color: #4F1275;
     color: #4F1275;
@@ -113,6 +118,10 @@ body.light-mode .sobre-mim{
     color: black;
 }
 
+body.light-mode .banner-home{
+    color: white;
+}
+
 .card{
     background-color: transparent;
     border-color: transparent;
@@ -154,15 +163,45 @@ body {
     cursor: initial;
 }
 
-.banner {
+.banner-home {
     height: 500px;
     width: 100%;
     padding: 0;
     margin: 0;
-    background-image: url(camisetasTiBanner.png);
+    background-image: url(imagens/bannerHome.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    text-align: left;
+}
+
+.banner-home h1{
+    padding-top: 8%;
+    margin-left: 2%;
+}
+
+.banner-home p{
+    max-width: 400px;
+}
+
+.hello {
+    font-family: 'Courier New', monospace;
+    color: #c15dff;
+}
+
+.code {
+    color: #C9EEF2;
+}
+
+.cursor {
+    animation: piscar 1s infinite;
+    margin-left: -3%;
+}
+
+@keyframes piscar {
+    50% {
+        opacity: 0;
+    }
 }
 
 /* .banner img{
@@ -226,12 +265,30 @@ body {
     color: #C9EEF2;
 }
 
+.curriculo:active{
+    background-color: #460259 !important;
+    color: white !important;
+}
+
 @media (max-width: 600px) {
-    .banner{
+    .banner-home{
     height: 566px;
     width: 100%;
     padding: 0%;
-    background-image: url(camisetasTiBanner.png);
+    background-image: url(imagens/bannerHome.jpeg);
+    }
+
+    .banner-home h1{
+    padding-top: 15%;
+    margin-left: 2%;
+}
+
+    .banner-home p{
+    max-width: 250px;
+}
+
+    .curriculo{
+        margin-top: 5%;
     }
 
     .vamos-conversar{
@@ -248,6 +305,6 @@ body {
 }
 
 .vamos-conversar h1{
-    padding-top: 55%;
+    padding-top: 38%;
 }
 }
