@@ -35,6 +35,8 @@ function mudarTexto(texto) {
         document.getElementById("item3").textContent = "Resolução de problemas";
         document.getElementById("item4").textContent = "Aprendizado contínuo";
         document.getElementById("item5").textContent = "Organização";
+        document.getElementById("item6").textContent = "";
+        document.getElementById("item7").textContent = "";
 
         document.getElementById("card-title1").textContent = "";
         document.getElementById("card-text1").textContent = "";
