@@ -94,13 +94,17 @@ function mudarTextoFormacao(texto) {
 
         document.getElementById("card-formacao-title1").textContent = "Concluí o curso médio/técnico em informática";
 
+        document.getElementById("card-formacao-text1").textContent = "Curso realizado de 10/05/2024 à 24/05/2025";
+
 
         document.getElementById("card-formacao-title2").textContent = "Concluí o curso técnico de instrutor pela instituição preparatória FUSAO";
+        document.getElementById("card-formacao-text2").textContent = "Curso realizado de 22/05/2022 à 20/05/2024";
         
 
 
     } else if (texto === "cur") {
         document.getElementById("certificado1").style.display = "none";
+        document.getElementById("certificado2").style.display = "none";
 
         document.getElementById("card-formacao1").style.backgroundColor = corCartao;
                 document.getElementById("card-formacao2").style.backgroundColor = corCartao;
@@ -109,20 +113,24 @@ function mudarTextoFormacao(texto) {
 
         document.getElementById("card-formacao-title1").textContent = "Estou atualmente cursando Ferramentas WEB, com previsão de conclusão para 10/10/2037";
 
+        document.getElementById("card-formacao-text1").textContent = "Início: 22/03/2026 | Previsão de término 10/02/2027";
 
-        document.getElementById("card-formacao-title2").textContent = "Estou atualmente cursando Design de Tanques de Guerra — pela marinha brasileira — com previsão de conclusão para 10/10/2037";
+
+        document.getElementById("card-formacao-title2").textContent = "Estou atualmente cursando Design — pela Instituição de Design Brasileira";
+
+        
+        document.getElementById("card-formacao-text2").textContent = "Início: 20/07/2025 | Previsão de conclusão para 13/11/2026";
 
         
 
     } else {
         document.getElementById("card-formacao1").style.backgroundColor = corCartao;
-                document.getElementById("card-formacao2").style.backgroundColor = corCartao;
-
+        
+        document.getElementById("card-formacao2").style.backgroundColor = corCartao;
 
         document.getElementById("titulo-formacoes").textContent = "Concluídos";
 
         document.getElementById("card-formacao-title1").textContent = "Concluí o curso médio/técnico em informática";
-
 
         document.getElementById("card-formacao-title2").textContent = "Concluí o curso técnico de instrutor pela instituição preparatória FUSAO";
 
