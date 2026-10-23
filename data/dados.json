@@ -1,0 +1,100 @@
+{
+  "perfil": {
+    "nome": "Nícollas Theodoro",
+    "nomeCompleto": "Nícollas A. Theodoro",
+    "cargo": "Estudante de Ciência da Computação · Técnico em Informática",
+    "saudacao": "Me chamo Nícollas Theodoro",
+    "resumo": "Sou estudante de Ciência da Computação e técnico em Informática, apaixonado por tecnologia e desenvolvimento de software. Busco oportunidades para aplicar meus conhecimentos, desenvolver projetos e continuar evoluindo como profissional.",
+    "foto": "",
+    "curriculo": "arquivos/CURRICULO - NICOLLAS THEODORO.pdf"
+  },
+  "sobre": [
+    "Meu nome é Nícollas Theodoro, sou estudante de Ciência da Computação e técnico em Informática. Tenho grande interesse pela área de tecnologia e estou constantemente buscando aprender novas ferramentas, linguagens e conceitos.",
+    "Tenho interesse principalmente em desenvolvimento de software e programação. Ao longo da minha formação, tive contato com diferentes tecnologias, como HTML, CSS, JavaScript, Python, PHP, SQL e C, desenvolvendo projetos para colocar em prática o que aprendo.",
+    "Gosto de aprender na prática. Por isso, procuro transformar aquilo que estudo em projetos, experimentos e aplicações que me permitam entender não apenas como uma tecnologia funciona, mas também como utilizá-la para resolver problemas.",
+    "Atualmente, meu objetivo é conquistar experiência profissional na área de tecnologia, continuar aprimorando minhas habilidades e, principalmente, evoluir como desenvolvedor. Estou aberto a oportunidades, projetos e experiências que possam contribuir para esse crescimento."
+  ],
+  "hardSkills": ["HTML", "CSS", "JavaScript", "PHP", "Python", "SQL (MySQL e PostgreSQL)", "Git/GitHub", "C"],
+  "softSkills": ["Comunicação", "Trabalho em equipe", "Resolução de problemas", "Aprendizado contínuo", "Organização"],
+  "experiencias": [
+    {
+      "id": "exp-1",
+      "titulo": "Sistema Web Educacional (Líder de Equipe)",
+      "organizacao": "FAETEC Jardim América",
+      "periodo": "",
+      "descricao": "Fui responsável por gerir uma equipe de 5 pessoas em um sistema educacional que visava o auxílio no estudo espaçado e distribuição de conteúdo para os alunos da rede FAETEC de Jardim América."
+    }
+  ],
+  "formacoes": [
+    {
+      "id": "for-1",
+      "titulo": "Curso médio/técnico em Informática",
+      "instituicao": "",
+      "periodo": "10/05/2024 à 24/05/2025",
+      "status": "concluido",
+      "descricao": "",
+      "certificado": ""
+    },
+    {
+      "id": "for-2",
+      "titulo": "Curso técnico de instrutor",
+      "instituicao": "FUSAO",
+      "periodo": "22/05/2022 à 20/05/2024",
+      "status": "concluido",
+      "descricao": "",
+      "certificado": ""
+    },
+    {
+      "id": "for-3",
+      "titulo": "Ferramentas WEB",
+      "instituicao": "",
+      "periodo": "Início: 22/03/2026 | Previsão de término: 10/02/2027",
+      "status": "cursando",
+      "descricao": "",
+      "certificado": ""
+    },
+    {
+      "id": "for-4",
+      "titulo": "Design",
+      "instituicao": "Instituição de Design Brasileira",
+      "periodo": "Início: 20/07/2025 | Previsão de conclusão: 13/11/2026",
+      "status": "cursando",
+      "descricao": "",
+      "certificado": ""
+    }
+  ],
+  "certificados": [],
+  "projetos": [
+    {
+      "id": "prj-1",
+      "titulo": "Agente de IA pessoal em Python",
+      "descricao": "Projeto desenvolvido em Python com o objetivo de criar um assistente pessoal utilizando recursos de inteligência artificial. O projeto reúne conceitos de programação, integração com modelos de IA e interação com o usuário.",
+      "imagem": "imagens/projeto-ia.png",
+      "tecnologias": "Python, IA",
+      "link": "https://github.com/NicollasTheodoro/IA-Pessoal",
+      "demo": ""
+    },
+    {
+      "id": "prj-2",
+      "titulo": "Jogo Super Trunfo em C",
+      "descricao": "Projeto desenvolvido em C como exercício de lógica de programação e estruturas de dados. O jogo simula uma partida de Super Trunfo, trabalhando conceitos fundamentais da linguagem e organização de código.",
+      "imagem": "imagens/projeto-supertrunfo.png",
+      "tecnologias": "C, Lógica de programação",
+      "link": "https://github.com/NicollasTheodoro/Super-Trunfo---desafio",
+      "demo": ""
+    }
+  ],
+  "contato": {
+    "titulo": "Vamos conversar?",
+    "subtitulo": "Tem um projeto, oportunidade ou simplesmente quer trocar uma ideia sobre tecnologia?",
+    "texto": "Estou aberto a novas oportunidades, projetos e networking. Se você quiser conversar, entre em contato comigo pelo WhatsApp.",
+    "whatsapp": "5521979903028",
+    "mensagem": "Olá! Vi seu currículo e gostaria de conversar.",
+    "email": "theodoronicollas1@gmail.com"
+  },
+  "redes": {
+    "github": "https://github.com/NicollasTheodoro",
+    "linkedin": "",
+    "instagram": ""
+  }
+}

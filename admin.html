@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Admin | Nícollas Theodoro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+    <!-- Tela de login -->
+    <div class="login-wrap" id="loginView">
+        <form class="login-card" id="loginForm" autocomplete="off">
+            <h1>&lt;<span style="color:var(--primary)">admin</span>/&gt;</h1>
+            <p class="sub">Área restrita. Entre com o seu token de acesso do GitHub para editar o site.</p>
+            <label class="f" for="token">Token de acesso</label>
+            <input type="password" id="token" placeholder="github_pat_..." required autocomplete="off" spellcheck="false">
+            <label class="check"><input type="checkbox" id="lembrar"> Manter conectado neste dispositivo</label>
+            <button class="btn btn-primary" style="width:100%" id="loginBtn" type="submit">Entrar</button>
+            <p class="erro" id="loginErro" role="alert"></p>
+            <details>
+                <summary>Como gerar o token?</summary>
+                <ol>
+                    <li>No GitHub: <b>Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token</b>.</li>
+                    <li><b>Repository access:</b> "Only select repositories" e escolha <code>site-repositorio</code>.</li>
+                    <li><b>Permissions → Repository → Contents:</b> <code>Read and write</code>.</li>
+                    <li>Gere, copie o token e cole aqui. Ele só aparece uma vez.</li>
+                </ol>
+            </details>
+        </form>
+    </div>
+
+    <!-- Painel -->
+    <div id="appView" hidden>
+        <header class="topbar">
+            <h1>&lt;<span>admin</span>/&gt;</h1>
+            <span class="status" id="status">Tudo publicado</span>
+            <a class="btn btn-sm btn-ghost" href="index.html" target="_blank" rel="noopener">Ver site</a>
+            <button class="btn btn-sm" id="backupBtn" type="button">Backup</button>
+            <button class="btn btn-sm btn-primary" id="publicarBtn" type="button" disabled>Publicar alterações</button>
+            <button class="btn btn-sm btn-danger" id="sairBtn" type="button">Sair</button>
+        </header>
+        <div class="shell">
+            <nav class="side" id="side"></nav>
+            <section class="panel" id="panel"></section>
+        </div>
+    </div>
+
+    <!-- Modal de edição -->
+    <dialog id="modal">
+        <form method="dialog" id="modalForm">
+            <div class="m-head" id="modalTitulo"></div>
+            <div class="m-body" id="modalCorpo"></div>
+            <div class="m-foot">
+                <button class="btn" type="button" id="modalCancelar">Cancelar</button>
+                <button class="btn btn-primary" type="submit">Salvar item</button>
+            </div>
+        </form>
+    </dialog>
+
+    <div id="toasts" aria-live="polite"></div>
+
+    <script src="js/config.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>
