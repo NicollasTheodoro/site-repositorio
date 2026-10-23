@@ -14,8 +14,23 @@
     "Gosto de aprender na prática. Por isso, procuro transformar aquilo que estudo em projetos, experimentos e aplicações que me permitam entender não apenas como uma tecnologia funciona, mas também como utilizá-la para resolver problemas.",
     "Atualmente, meu objetivo é conquistar experiência profissional na área de tecnologia, continuar aprimorando minhas habilidades e, principalmente, evoluir como desenvolvedor. Estou aberto a oportunidades, projetos e experiências que possam contribuir para esse crescimento."
   ],
-  "hardSkills": ["HTML", "CSS", "JavaScript", "PHP", "Python", "SQL (MySQL e PostgreSQL)", "Git/GitHub", "C"],
-  "softSkills": ["Comunicação", "Trabalho em equipe", "Resolução de problemas", "Aprendizado contínuo", "Organização"],
+  "hardSkills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "Python",
+    "SQL (MySQL e PostgreSQL)",
+    "Git/GitHub",
+    "C"
+  ],
+  "softSkills": [
+    "Comunicação",
+    "Trabalho em equipe",
+    "Resolução de problemas",
+    "Aprendizado contínuo",
+    "Organização"
+  ],
   "experiencias": [
     {
       "id": "exp-1",
@@ -23,6 +38,13 @@
       "organizacao": "FAETEC Jardim América",
       "periodo": "",
       "descricao": "Fui responsável por gerir uma equipe de 5 pessoas em um sistema educacional que visava o auxílio no estudo espaçado e distribuição de conteúdo para os alunos da rede FAETEC de Jardim América."
+    },
+    {
+      "id": "exp-mvlbb9hj9",
+      "titulo": "dasdsad",
+      "organizacao": "asdasd",
+      "periodo": "asdasd",
+      "descricao": "asdasdasd"
     }
   ],
   "formacoes": [
