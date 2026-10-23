@@ -1,7 +1,7 @@
 /* Painel admin: edita data/dados.json (e envia imagens/PDFs) direto no repositório via API do GitHub. */
 (() => {
   const C = window.SITE_CONFIG;
-  const API = "siterepositorionicollastoken02";
+  const API = "https://api.github.com";
   const $ = (s, r = document) => r.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
