@@ -81,15 +81,6 @@
       "status": "cursando",
       "descricao": "",
       "certificado": ""
-    },
-    {
-      "id": "for-4",
-      "titulo": "Design",
-      "instituicao": "Instituição de Design Brasileira",
-      "periodo": "Início: 20/07/2025 | Previsão de conclusão: 13/11/2026",
-      "status": "cursando",
-      "descricao": "",
-      "certificado": ""
     }
   ],
   "certificados": [],
@@ -110,6 +101,33 @@
       "imagem": "imagens/projeto-supertrunfo.png",
       "tecnologias": "C, Lógica de programação",
       "link": "https://github.com/NicollasTheodoro/Super-Trunfo---desafio",
+      "demo": ""
+    },
+    {
+      "id": "prj-mvttlmg472",
+      "titulo": "Sistema intermediário entre passageiro e motorista",
+      "descricao": "",
+      "imagem": "imagens/uploads/design-sem-nome-1793294988822.png",
+      "tecnologias": "HTML, CSS, JAVASCRIPT",
+      "link": "",
+      "demo": "https://rodrigotaxi.theodoronicollas1.workers.dev"
+    },
+    {
+      "id": "prj-mvttp9gz86",
+      "titulo": "Site gerador de senhas",
+      "descricao": "",
+      "imagem": "imagens/uploads/whatsapp-image-2026-10-29-at-14-34-17-1793295268055.jpg",
+      "tecnologias": "HTML, CSS, JAVASCRIPT",
+      "link": "https://github.com/NicollasTheodoro/Gerador-de-senhas",
+      "demo": ""
+    },
+    {
+      "id": "prj-mvttqka35",
+      "titulo": "Tela de cadastro e login",
+      "descricao": "",
+      "imagem": "imagens/uploads/imagem-2026-10-29-143506047-1793295306051.png",
+      "tecnologias": "HTML, CSS, JAVASCRIPT",
+      "link": "https://github.com/NicollasTheodoro/telaDeLogin",
       "demo": ""
     }
   ],
