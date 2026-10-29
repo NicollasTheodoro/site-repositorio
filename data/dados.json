@@ -120,6 +120,15 @@
       "tecnologias": "HTML, CSS, JAVASCRIPT",
       "link": "https://github.com/NicollasTheodoro/Gerador-de-senhas",
       "demo": ""
+    },
+    {
+      "id": "prj-mvttqka35",
+      "titulo": "Tela de cadastro e login",
+      "descricao": "",
+      "imagem": "imagens/uploads/imagem-2026-10-29-143506047-1793295306051.png",
+      "tecnologias": "HTML, CSS, JAVASCRIPT",
+      "link": "https://github.com/NicollasTheodoro/telaDeLogin",
+      "demo": ""
     }
   ],
   "contato": {
