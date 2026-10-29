@@ -9,13 +9,13 @@
   --muted: #a99fbd;
   --primary: #a855f7;
   --primary-strong: #8b3ff0;
-  /* --accent: #67e8f9; */
-  /* --ok: #34d399; */
+  --accent: #67e8f9;
+  --ok: #34d399;
   --danger: #f87171;
   --warn: #fbbf24;
   --radius: 16px;
   --shadow: 0 14px 40px -14px rgba(0, 0, 0, .7);
-  /* --grad: linear-gradient(135deg, #a855f7 0%, #6366f1 60%, #22d3ee 130%); */
+  --grad: linear-gradient(135deg, #a855f7 0%, #a855f7 60%, #a855f7 130%);
   --font: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', Consolas, monospace;
   color-scheme: dark;
