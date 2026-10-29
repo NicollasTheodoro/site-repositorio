@@ -111,6 +111,15 @@
       "tecnologias": "HTML, CSS, JAVASCRIPT",
       "link": "",
       "demo": "https://rodrigotaxi.theodoronicollas1.workers.dev"
+    },
+    {
+      "id": "prj-mvttp9gz86",
+      "titulo": "Site gerador de senhas",
+      "descricao": "",
+      "imagem": "imagens/uploads/whatsapp-image-2026-10-29-at-14-34-17-1793295268055.jpg",
+      "tecnologias": "HTML, CSS, JAVASCRIPT",
+      "link": "https://github.com/NicollasTheodoro/Gerador-de-senhas",
+      "demo": ""
     }
   ],
   "contato": {
