@@ -111,15 +111,6 @@
       "tecnologias": "C, Lógica de programação",
       "link": "https://github.com/NicollasTheodoro/Super-Trunfo---desafio",
       "demo": ""
-    },
-    {
-      "id": "prj-mvlbl7ko27",
-      "titulo": "Motoristas Taxi",
-      "descricao": "Um programa que facilita o encontro de motoristas de taxi no estado do Rio de Janeiro.",
-      "imagem": "imagens/uploads/design-sem-nome-1792781004469.png",
-      "tecnologias": "HTML, JavaScrip, CSS",
-      "link": "",
-      "demo": "https://rodrigotaxi.theodoronicollas1.workers.dev/"
     }
   ],
   "contato": {
