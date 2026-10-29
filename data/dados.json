@@ -102,6 +102,15 @@
       "tecnologias": "C, Lógica de programação",
       "link": "https://github.com/NicollasTheodoro/Super-Trunfo---desafio",
       "demo": ""
+    },
+    {
+      "id": "prj-mvttlmg472",
+      "titulo": "Sistema intermediário entre passageiro e motorista",
+      "descricao": "",
+      "imagem": "imagens/uploads/design-sem-nome-1793294988822.png",
+      "tecnologias": "HTML, CSS, JAVASCRIPT",
+      "link": "",
+      "demo": "https://rodrigotaxi.theodoronicollas1.workers.dev"
     }
   ],
   "contato": {
