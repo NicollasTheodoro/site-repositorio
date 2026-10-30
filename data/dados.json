@@ -72,15 +72,6 @@
   "certificados": [],
   "projetos": [
     {
-      "id": "prj-1",
-      "titulo": "Agente de IA pessoal em Python",
-      "descricao": "Projeto desenvolvido em Python com o objetivo de criar um assistente pessoal utilizando recursos de inteligência artificial. O projeto reúne conceitos de programação, integração com modelos de IA e interação com o usuário.",
-      "imagem": "imagens/projeto-ia.png",
-      "tecnologias": "Python, IA",
-      "link": "https://github.com/NicollasTheodoro/IA-Pessoal",
-      "demo": ""
-    },
-    {
       "id": "prj-2",
       "titulo": "Jogo Super Trunfo em C",
       "descricao": "Projeto desenvolvido em C como exercício de lógica de programação e estruturas de dados. O jogo simula uma partida de Super Trunfo, trabalhando conceitos fundamentais da linguagem e organização de código.",
